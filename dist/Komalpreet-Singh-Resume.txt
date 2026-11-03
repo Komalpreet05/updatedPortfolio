@@ -1,0 +1,31 @@
+KOMALPREET SINGH
+Software Developer | BSc Computer Science
+Toronto, Ontario | komalpreet.singh@example.com
+
+PROFILE
+Computer Science student at York University and Software Developer with the Ontario Public Service. I build accessible, reliable digital experiences and enjoy translating complex problems into clear, useful products.
+
+EDUCATION
+York University — BSc Computer Science
+
+EXPERIENCE
+Ontario Public Service — Software Developer
+2025–Present
+- Contribute to software delivery in a professional public-sector environment.
+- Collaborate with cross-functional teams to build and improve digital services.
+
+SELECTED PROJECTS
+Campus Connect — Full-stack student community platform
+Stack: React, Node.js, PostgreSQL
+Built a responsive experience for discovering campus events and connecting with peers.
+
+Transit Lens — Data visualization dashboard
+Stack: JavaScript, D3.js, REST APIs
+Turned public transit data into clear, interactive visualizations.
+
+Study Sprint — Productivity tool
+Stack: React, CSS, localStorage
+Designed a focused study timer with progress tracking and a calm, accessible interface.
+
+SKILLS
+JavaScript, React, HTML, CSS, Node.js, REST APIs, Git, GitHub, SQL, Responsive Design, Accessibility, Data Visualization

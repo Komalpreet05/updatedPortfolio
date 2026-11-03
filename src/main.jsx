@@ -20,7 +20,7 @@ const projects = [
     number: "01",
     type: "Mini Game",
     title: "Snake Game",
-    image: "./public/snakeLive.png",
+    image: "/snakeLive.png",
     description:
       "A classic snake game built with React, Node.js, featuring a leaderboard to track high scores. I bet you can't beat a score of 55, try it out!",
     stack: ["React", "Node.js"],
@@ -31,7 +31,7 @@ const projects = [
     number: "02",
     type: "Weather application",
     title: "Weather App",
-    image: "./public/weatherDash.png",
+    image: "/weatherDash.png",
     description:
       "A responsive weather application that helps users search locations and quickly view current conditions and forecasts.",
     stack: ["JavaScript", "CSS", "Weather API"],
@@ -42,7 +42,7 @@ const projects = [
     number: "03",
     type: "Transit web application",
     title: "Presto Website Clone",
-    image: "./public/presto.png",
+    image: "/presto.png",
     description:
       "An official Presto website clone with an added feature that predicts potential transit delays, helping riders plan their journeys with more confidence.",
     stack: ["HTML", "CSS", "JavaScript", "Prediction feature"],
@@ -142,7 +142,7 @@ function App() {
             <div className="portrait-card">
               <div className="portrait-image">
                 <img
-                  src="public/profile.jpg"
+                  src="/profile.jpg"
                   alt="Professional portrait of Komalpreet Singh"
                 />
               </div>
@@ -340,7 +340,7 @@ function App() {
               </div>
               <a
                 className="button button-light"
-                href="./public/Komalpreet.pdf"
+                href="/Komalpreet.pdf"
                 download
               >
                 Download resume <Download size={17} />

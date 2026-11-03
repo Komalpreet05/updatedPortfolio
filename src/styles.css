@@ -577,6 +577,28 @@ h2 em {
   font-size: 9px;
   padding: 7px 9px;
 }
+.project-details {
+  border-top: 1px solid var(--line);
+  display: grid;
+  gap: 12px;
+  margin-top: 20px;
+  padding-top: 15px;
+}
+.project-details p {
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.5;
+  margin: 0;
+}
+.project-details strong {
+  color: var(--ink);
+  display: block;
+  font-family: "DM Mono";
+  font-size: 9px;
+  letter-spacing: 0.06em;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
 .project-links {
   align-items: center;
   border-top: 1px solid var(--line);

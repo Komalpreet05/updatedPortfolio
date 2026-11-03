@@ -23,6 +23,10 @@ const projects = [
     description:
       "A classic snake game built with React, Node.js, featuring a leaderboard to track high scores. I bet you can't beat a score of 55, try it out!",
     stack: ["React", "Node.js"],
+    role:
+      "Designed and developed the game logic, controls, scoring system, and leaderboard.",
+    outcome:
+      "Delivered a playable responsive game with persistent high-score tracking and a live demo.",
     github: "https://github.com/Komalpreet05/snakeGameV2.0",
     demo: "https://devkomal-snakegame-v2.netlify.app/",
   },
@@ -34,6 +38,10 @@ const projects = [
     description:
       "A responsive weather application that helps users search locations and quickly view current conditions and forecasts.",
     stack: ["JavaScript", "CSS", "Weather API"],
+    role:
+      "Built the interface, integrated the weather API, and handled location search and forecast states.",
+    outcome:
+      "Created a clear responsive dashboard that presents weather information quickly across screen sizes.",
     github: "https://github.com/Komalpreet05/weatherApp",
     demo: "https://devkomal-weatherapp.netlify.app/",
   },
@@ -45,6 +53,10 @@ const projects = [
     description:
       "An official Presto website clone with an added feature that predicts potential transit delays, helping riders plan their journeys with more confidence.",
     stack: ["HTML", "CSS", "JavaScript", "Prediction feature"],
+    role:
+      "Recreated the core Presto experience and developed the transit-delay prediction feature.",
+    outcome:
+      "Extended a familiar transit website concept with a practical planning tool for anticipating delays.",
     github: "https://github.com/Komalpreet05/CRUD-application",
   },
 ];
@@ -303,6 +315,16 @@ function App() {
                         {item}
                       </span>
                     ))}
+                  </div>
+                  <div className="project-details">
+                    <p>
+                      <strong>My role</strong>
+                      {project.role}
+                    </p>
+                    <p>
+                      <strong>Outcome</strong>
+                      {project.outcome}
+                    </p>
                   </div>
                 </div>
                 <div className="project-links">

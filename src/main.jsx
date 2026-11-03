@@ -9,7 +9,6 @@ import {
   Linkedin,
   Mail,
   Menu,
-  Play,
   Sparkles,
   X,
 } from "lucide-react";
@@ -246,13 +245,21 @@ function App() {
           </div>
           <div className="video-card">
             <div className="video-background">
-              <div className="video-grid" />
-              <span className="video-initials">KS</span>
-              <button className="play-button" aria-label="Play About Me video">
-                <Play size={24} fill="currentColor" />
-              </button>
-              <span className="video-label">ABOUT ME / 2026</span>
+              <iframe
+                src="https://www.youtube.com/embed/sxo6OUjn0zw"
+                title="Komalpreet Singh About Me video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              />
             </div>
+            <a
+              className="video-fallback"
+              href="https://youtu.be/sxo6OUjn0zw"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Watch on YouTube <ArrowUpRight size={14} />
+            </a>
           </div>
         </section>
 

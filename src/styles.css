@@ -417,13 +417,15 @@ h2 em {
   transform: rotate(-2deg);
 }
 .video-background {
-  align-items: center;
   background: linear-gradient(135deg, #9cbde2, #385c80);
-  display: flex;
   height: 300px;
-  justify-content: center;
   overflow: hidden;
   position: relative;
+}
+.video-background iframe {
+  border: 0;
+  height: 100%;
+  width: 100%;
 }
 .video-grid {
   background-image:
@@ -453,13 +455,17 @@ h2 em {
   position: absolute;
   width: 68px;
 }
-.video-label {
-  bottom: 15px;
-  color: white;
+.video-fallback {
+  align-items: center;
+  color: var(--ink);
+  display: inline-flex;
+  font-family: "DM Mono";
   font-size: 9px;
-  left: 18px;
-  position: absolute;
+  gap: 6px;
+  margin-top: 15px;
+  text-transform: uppercase;
 }
+.video-fallback:hover { color: var(--coral); }
 .projects {
   background: var(--cream);
   max-width: none;

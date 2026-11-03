@@ -46,7 +46,6 @@ const projects = [
       "An official Presto website clone with an added feature that predicts potential transit delays, helping riders plan their journeys with more confidence.",
     stack: ["HTML", "CSS", "JavaScript", "Prediction feature"],
     github: "https://github.com/Komalpreet05/CRUD-application",
-    demo: "https://example.com/",
   },
 ];
 
@@ -218,9 +217,9 @@ function App() {
               <div>
                 <strong>01</strong>
                 <span>
-                  Goal: build
+                  Career goal:
                   <br />
-                  with purpose
+                  build with purpose
                 </span>
               </div>
             </div>
@@ -310,9 +309,11 @@ function App() {
                   <a href={project.github} target="_blank" rel="noreferrer">
                     <Github size={16} /> GitHub <ArrowUpRight size={14} />
                   </a>
-                  <a href={project.demo} target="_blank" rel="noreferrer">
-                    View live demo <ArrowUpRight size={14} />
-                  </a>
+                  {project.demo && (
+                    <a href={project.demo} target="_blank" rel="noreferrer">
+                      View live demo <ArrowUpRight size={14} />
+                    </a>
+                  )}
                 </div>
               </article>
             ))}
